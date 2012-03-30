@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export.dtd">
+<en-export export-date="20120330T070429Z" application="Evernote" version="Evernote Mac 2.0.1 (118429)">
+<note><title>2012/03/30 研究会打ち合わせ</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<ul>
+<li>Wordpressが遅い問題
+<ul>
+<li>I/O(ディスク)ボトルネックかもしれない</li>
+<li>各ベンチマークを普通のサーバで実行した場合と比較する</li>
+<li>I/Oのベンチマーク
+<ul>
+<li>Bonnie++</li>
+<li><a href="http://oracle-abc.wikidot.com/linux-io-benchmark">http://oracle-abc.wikidot.com/linux-io-benchmark</a><br/></li>
+</ul>
+</li>
+<li>PHP単体のベンチマーク
+<ul>
+<li><a href="http://www.phpbench.com/">http://www.phpbench.com/</a><br/></li>
+</ul>
+</li>
+<li>MySQLのベンチマーク
+<ul>
+<li><a href="http://dev.mysql.com/doc/refman/5.0/en/mysql-benchmarks.html">http://dev.mysql.com/doc/refman/5.0/en/mysql-benchmarks.html</a><br/></li>
+</ul>
+</li>
+<li>I/Oボトルネックの場合、ramdiskを使用して何とかできないか
+<ul>
+<li>先生によるとあまり期待はできないみたい</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>電流センサの精度の問題
+<ul>
+<li>とりあえず今のままで様子見</li>
+<li>ホール素子で電流の値を取得している(つまり電流は素通し)ので火災の危険はないみたい</li>
+</ul>
+</li>
+<li>LCPCのページへのアクセス頻度を論文のデータとして使用するかもしれない
+<ul>
+<li>「このページへのアクセスは論文でデータとして使用される」という旨をページに記載しておく</li>
+</ul>
+</li>
+<li>Linux cpufreqのバグ
+<ul>
+<li>只のボードの設定ミスかもしれない
+<ul>
+<li>RP-X Linuxマニュアルの9.3章を確認して設定しなおす</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>CPUの電源遮断
+<ul>
+<li>できるっぽい?同じくマニュアルの9.3章を確認</li>
+<li>もしかしたらこれは普通のCPU Hotplugかもしれない<br/></li>
+</ul>
+</li>
+<li>CPUの省電力制御
+<ul>
+<li>APIが用意されている</li>
+<li>RP-X Linuxのマニュアル9.4.4章を参照</li>
+<li>使用するときはカーネルのconfigurationを実行時に確認し、使用できる状態か見極めること</li>
+</ul>
+</li>
+</ul>
+</en-note>
+]]></content><created>20120330T063006Z</created><updated>20120330T065030Z</updated><tag>研究</tag><note-attributes/></note>
+</en-export>
